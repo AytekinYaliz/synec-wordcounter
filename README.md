@@ -4,7 +4,7 @@
 - from a terminal run the following command
 ```
   ./mvnw clean install
-  ./mvnw spring-boot:run
+  ./mvnw spring-boot:run -pl wordcounter-service 
 ```
 The application:
 - will run on http://localhost:8080
